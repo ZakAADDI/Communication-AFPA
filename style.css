@@ -1,0 +1,256 @@
+/* Ensemble de la page */
+
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: rgb(243, 237, 237);
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+/* Head */
+
+header{
+    width: 100%;
+    min-width: 481px;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(130, 196, 76);
+    font-size: 1.25rem;
+}
+
+nav{
+    min-height: 1px;
+    display: flex;
+}
+
+nav ul{
+    display: flex;
+    width: 1700px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#seconnecter{
+    font-weight: bold;
+    color: white;
+    border: white none;
+    background-color: rgb(57, 128, 221);
+    height: 50px;
+    width: 150px;
+}
+
+/* Titres et barre de recherche */
+
+h1{
+    font-size: 40px;
+    color: black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid none;
+    border-radius: 20px;
+    background-color: rgba(128, 128, 128, 0.11);
+    width: 700px;
+    height: 120px;
+    margin-right: auto;
+    margin-left: auto
+}
+
+form{
+    text-align: center;
+    font-size: 50px;
+}
+
+#recherche{
+    font-size: 25px;
+    font-style: italic;
+    width: 1000px;
+    border: rgba(62, 142, 247, 0.685) solid;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+/* Titre bloc 1 & 2 */
+
+h2{
+    font-size: 35px;
+    color: whitesmoke;
+    text-shadow: 2px 2px 2px black;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(130, 196, 76);
+    height: 50px;
+    width: 100%;
+}
+
+
+/* Paragraphes bloc 1 */
+
+.bloc1{
+    margin-bottom: 40px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#titre1, #titre2, #titre3{
+    width: 350px;
+    color: rgb(65, 65, 65);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(95, 95, 95, 0.144);
+    height: 80px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+#para1, #para2, #para3{
+    width: 300px;
+    display: flex;
+    text-align: justify;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px rgb(130, 196, 76) solid;
+    height: 200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+} 
+
+/* Paragraphe bloc 2 */
+
+.partie1 {
+    margin-bottom: 40px;
+    display: flex;
+}
+
+
+#titre4, #titre5, #titre6, #titre7{
+    width: 290px;
+    color: rgb(65, 65, 65);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(95, 95, 95, 0.144);
+    height: 80px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+ 
+#img4, #img5, #img6, #img7{
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 68px;
+}
+
+#img6{
+    margin-top: 37px;
+}
+
+#para4, #para5, #para6, #para7{
+    width: 270px;
+    text-align: justify;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px rgb(130, 196, 76) solid;
+    height: 250px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#para5{
+    margin-top: 1px;
+}
+
+#para6{
+    margin-top: 41px;
+}
+
+.partie2{
+    margin-bottom: 40px;
+    display: flex;
+    margin-left: 440px;
+}
+
+#titre8{
+    width: 320px;
+    color: rgb(65, 65, 65);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(95, 95, 95, 0.144);
+    height: 80px;
+    margin: auto;
+}
+
+#img8{
+    width: 370px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-bottom: 20px;
+ margin: auto;
+}
+
+#para8{
+    border: 1px rgb(130, 196, 76) solid;
+    height: 150px;
+    width: 400px;
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+ margin: auto;
+
+}
+
+/* Footer */
+
+#abonner{
+   background-color: rgb(130, 196, 76);
+   height: 150px;
+   padding-top: 25px;
+}
+
+h5{
+    text-align: center;
+}
